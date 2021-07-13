@@ -10,3 +10,9 @@
 * Impulso Fullstack Developer
 * Code Anywere
 * Take Blip Fullstack Developer
+* everis New Talents - Java
+* Inter Android Developer
+* LocalizaLabs React Developer
+* MRV Front End SPA Developer
+* Banco Carrefour Data Engineer
+* Santander Bootcamp | Fullstack Developer
