@@ -15,7 +15,7 @@ DDD nao cadastrado caso não existir DDD correspondente ao número digitado.
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Classe {
+public class DDD {
   public static void main(String[] args) throws IOException {
     Scanner leitor = new Scanner(System.in);
     int DDD = leitor.nextInt();

@@ -18,7 +18,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class NumerosPares {
+public class ExibindoNumerosPares {
     public static void main(String[] args) throws IOException {
         String numero;
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

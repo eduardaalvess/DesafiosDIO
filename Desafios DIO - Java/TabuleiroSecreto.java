@@ -39,7 +39,7 @@
 
 import java.util.*;
 
-public class Main {
+public class TabuleiroSecreto {
 
     public static void main(String[] args) {
 

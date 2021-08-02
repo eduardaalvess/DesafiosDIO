@@ -14,7 +14,7 @@ Desafio. Confira o exemplo abaixo:
 import java.util.Scanner;
 import java.util.Locale;
 
-public class Classe{
+public class CPF {
 	public static void main(String[] args) {
 		Locale.setDefault(new Locale("en", "US"));
 		Scanner sc = new Scanner(System.in);

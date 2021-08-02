@@ -46,7 +46,7 @@ import java.io.IOException;
 import java.util.stream.Collectors;
 import java.util.*;
 
-public class Main {
+public class AbreviandoPostsDoBlog {
     
     public static void main(String[] args) throws IOException {
         

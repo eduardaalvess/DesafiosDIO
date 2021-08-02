@@ -25,7 +25,7 @@
 
 import java.util.Scanner;
 
-public class Main {
+public class CombinacaoDeStrings {
     
     public static void main(String[] args) {
        

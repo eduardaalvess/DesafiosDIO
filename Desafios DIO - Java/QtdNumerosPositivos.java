@@ -12,7 +12,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class QtdeNumerosPositivos {
+public class QtdNumerosPositivos {
     public static void main(String[] args) throws IOException {
        String linha;
        Double n;
@@ -26,7 +26,9 @@ public class QtdeNumerosPositivos {
            n = Double.parseDouble(linha);
            if(n > 0.0)Pos++;
        }
+
+       System.out.println(Pos + " valores positivos");
+
     }
 
-       System.out.println("" + Pos + " valores positivos");
     }

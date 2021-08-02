@@ -29,7 +29,7 @@
 
 import java.util.*;
 
-public class Main {
+public class CoracaoDasCartas {
     
     static Map<String, Integer> m = new HashMap<String, Integer>();
     static int n;
