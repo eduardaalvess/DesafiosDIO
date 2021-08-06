@@ -16,3 +16,4 @@
 * MRV Front End SPA Developer
 * Banco Carrefour Data Engineer
 * Santander Bootcamp | Fullstack Developer
+* everis Quality Assurance Beginner #2 ✅ 
