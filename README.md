@@ -2,23 +2,22 @@
 
 <img src="https://i.redd.it/1uuc9by3a5571.jpg" />
 
-### Resolução dos desafios de Bootcamps da Digital Innovation One.
-* .NET Fundamentals ✅ 
-* HTML Web Developer ✅ 
-* Java Developer
-* JavaScript Game Developer
-* Impulso Fullstack Developer
-* Code Anywere
-* Take Blip Fullstack Developer
-* everis New Talents - Java
-* Inter Android Developer
-* LocalizaLabs React Developer
-* MRV Front End SPA Developer
-* Banco Carrefour Data Engineer
-* Santander Bootcamp | Fullstack Developer
-* everis Quality Assurance Beginner #2 ✅ 
-* Avanade CodeAnywhere .NET
-* everis Site Reliability Engineer Essentials
-* Capgemini Fullstack Java and Angular
-* Carrefour Android Developer
-* Cognizant Cloud Data Engineer
+### Repositório com a resolução dos desafios de Bootcamps da Digital Innovation One.
+
+Tabela organizacional:
+
+Bootcamp | Principais Tecnologias | Status
+------------- | ----------------------- | ---------
+Java Developer | Java, Spring | Em andamento
+HTML Web Developer | HTML5, CSS3, JavaScript, Bootstrap | Concluído
+everis New Talents - Java | Java | Finalizando
+.NET Fundamentals | C#, .NET | Concluído
+Inter Android Developer | Kotlin, Android | Não iniciado
+Cognizant Cloud Data Engineer | Python, Azure, MongoDB, AWS | Não iniciado
+Capgemini Fullstack Java and Angular | Java, Angular | Não iniciado
+Carrefour Android Developer | Kotlin, Android | Não iniciado
+Banco Carrefour Data Engineer | Python, Banco de Dados | Finalizando
+everis Quality Assurance Beginner #2 | Java, JUnit | Concluído
+JavaScript Game Developer | JavaScript | Não iniciado
+Santander Bootcamp - Fullstack Developer | Java, Angular | Em andamento
+everis Site Reliability Engineer Essentials | Java | Finalizando
