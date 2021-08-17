@@ -2,9 +2,9 @@
 
 <img src="https://i.redd.it/1uuc9by3a5571.jpg" />
 
-### * Repositório com a resolução dos desafios de Bootcamps da Digital Innovation One.
+### Repositório com a resolução dos desafios de Bootcamps da Digital Innovation One.
 
-
+Tabela organizacional:
 
 Bootcamp | Principais Tecnologias | Status
 ------------- | ----------------------- | ---------
