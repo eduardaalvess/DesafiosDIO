@@ -16,7 +16,7 @@ Inter Android Developer | Kotlin, Android | Não iniciado
 Cognizant Cloud Data Engineer | Python, Azure, MongoDB, AWS | Não iniciado
 Capgemini Fullstack Java and Angular | Java, Angular | Não iniciado
 Carrefour Android Developer | Kotlin, Android | Não iniciado
-Banco Carrefour Data Engineer | Python | Banco de Dados | Finalizando
+Banco Carrefour Data Engineer | Python, Banco de Dados | Finalizando
 everis Quality Assurance Beginner #2 | Java, JUnit | Concluído
 JavaScript Game Developer | JavaScript | Não iniciado
 Santander Bootcamp - Fullstack Developer | Java, Angular | Em andamento
