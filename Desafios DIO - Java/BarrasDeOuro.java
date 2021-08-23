@@ -1,4 +1,9 @@
-/* O feudo da Mesopotâmia é rico e o povo é cordial e alegre. Mas quando o
+// Solução de Problemas com Java
+// 7 / 7 - Barras de Ouro
+
+/* 
+
+O feudo da Mesopotâmia é rico e o povo é cordial e alegre. Mas quando o
 assunto são impostos, é praticamente um roubo. Todo final de ano, cada feudo
 do país deve pagar uma determinada quantidade de quilos de ouro em impostos.
 Quando é chegado o momento de coletar os impostos, o Rei envia sua carruagem
@@ -20,11 +25,20 @@ recolhido em cada feudo (em kg), a lista das estradas do reino, com os
 respectivos comprimentos (em km) e a capacidade de carga da carruagem real
 (em kg), determine qual é a mínima distância que a carruagem deve percorrer
 para recolher todo o ouro devido.
-- Entrada
+
+Entrada -
+
 A primeira linha contém dois inteiros N e C indicando respectivamente o número
 de cidades e a capacidade de carga da carruagem (2 ≤ N ≤ 104 e 1 ≤ C ≤ 100). O
-feudo principal é identificado pelo número 1 e os outros feudos são identificadas por inteiros de 2 a N . A segunda linha contém N inteiros Ei representando a quantidade de imposto devido por cada feudo i (0 ≤ Ei ≤ 100 para 1 ≤ i ≤ N ). Cada uma das N-1 linhas seguintes contém três inteiros A , B e C , indicando que uma estrada liga o feudo A e o feudo B (1 ≤ A, B ≤ N ) e tem comprimento C (1 ≤ C ≤ 100).
-- Saída
+feudo principal é identificado pelo número 1 e os outros feudos são identificadas
+ por inteiros de 2 a N . A segunda linha contém N inteiros Ei representando a 
+ quantidade de imposto devido por cada feudo i (0 ≤ Ei ≤ 100 para 1 ≤ i ≤ N ). 
+ Cada uma das N-1 linhas seguintes contém três inteiros A , B e C , indicando 
+ que uma estrada liga o feudo A e o feudo B (1 ≤ A, B ≤ N ) e tem comprimento 
+ C (1 ≤ C ≤ 100).
+
+Saída -
+
 Seu programa deve produzir uma única linha com um inteiro representando a menor
 distância que a carruagem real deve percorrer para recolher todo o imposto
 devido, em km.
