@@ -31,84 +31,82 @@ devido, em km.
 */
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
 public class BarrasDeOuro {
-  static int cargoCapacity;
-  class Edge {
-    Vertex destinationVertex;
-    int weight;
 
-    Edge(Vertex destinationVertex, int weight) {
-      this.destinationVertex = destinationVertex;
-      this.weight = weight;
-    }
-  }
+    static int capacidadeCarroagem;
 
-  class Vertex {
-    double taxQuantity;
-    List<Edge> edgesList;
+    public static void main(String[] args) {
+        Scanner leitor = new Scanner(System.in);
 
-    public Vertex(int taxQuantity) {
-      this.taxQuantity = taxQuantity;
-      this.edgesList = new ArrayList<>();
-    }
+        int qtdeCidades = leitor.nextInt();
+        capacidadeCarroagem = leitor.nextInt();
+        List<Cidade> cidades = new ArrayList<>();
+        List<Integer> ouroCadaCidade = new ArrayList<>();
 
-    public void addPath(Vertex destinationVertex, int weight) {
-      edgesList.add(new Edge(destinationVertex, weight));
-    }
-
-    public int calculateTotalDistance(Vertex previousCity) {
-      int totalDistance = 0;
-      int travelsNumber = 0;
-
-      for (var edge : edgesList) {
-        if (edge.destinationVertex == previousCity) {
-          continue;
+        for (int i = 0; i < qtdeCidades; i++) {
+            ouroCadaCidade.add( leitor.nextInt());
+            Cidade cidade = new Cidade(ouroCadaCidade.get(i));
+            cidades.add(cidade);
         }
 
-        totalDistance += edge.destinationVertex.calculateTotalDistance(this);
-        travelsNumber = (int) Math.ceil(edge.destinationVertex.taxQuantity / GoldBars.cargoCapacity) * 2;
-        totalDistance += travelsNumber * edge.weight;
-        this.taxQuantity += edge.destinationVertex.taxQuantity;
-      }
-      return totalDistance;
+
+        int a, b, c;
+
+        for (int i = 0; i < qtdeCidades - 1; i++) {
+            a = leitor.nextInt() - 1;
+            b = leitor.nextInt() - 1;
+            c = leitor.nextInt();
+
+            cidades.get(a).addCaminho(cidades.get(b), c);
+            cidades.get(b).addCaminho(cidades.get(a), c);
+
+        }
+
+        System.out.println(cidades.get(0).calcularDistanciaTotal(null));
     }
-  }
 
-  public static void main(String[] args) {
-    Scanner scanner = new Scanner(System.in);
-    int N;
-    String[] lineArgs;
-    lineArgs = scanner.nextLine().split(" ");
-    N = Integer.parseInt(lineArgs[0]);
-    GoldBars.cargoCapacity = Integer.parseInt(lineArgs[1]);
-    List<Vertex> cities = new ArrayList<>();
-    List<Integer> taxQuantities = new ArrayList<>();
-    Arrays.asList(scanner.nextLine().split(" ")).forEach(taxQuantityStr -> {
-      taxQuantities.add(Integer.parseInt(taxQuantityStr));
-    });
-    GoldBars goldBars = new GoldBars();
 
-    for (int i = 0; i < N; i++) {
-      Vertex city = goldBars.new Vertex(taxQuantities.get(i));
-      cities.add(city);
+    static class Cidade {
+        double ouroCidade;
+        List<Caminho> caminhos;
+
+        public Cidade(int ouroCidade) {
+            this.ouroCidade = ouroCidade;
+            this.caminhos = new ArrayList<>();
+        }
+
+        public void addCaminho(Cidade cidadeDestino, int distancia) {
+            caminhos.add(new Caminho(cidadeDestino, distancia));
+        }
+
+        public int calcularDistanciaTotal(Cidade cidadeAnterior) {
+            int distanciaTotal = 0;
+            int numeroViagens = 0;
+
+            for (var caminho : caminhos) {
+                if (caminho.cidadeDestino == cidadeAnterior) {
+                    continue;
+                }
+
+                distanciaTotal += caminho.cidadeDestino.calcularDistanciaTotal(this);
+                numeroViagens = (int) Math.ceil(caminho.cidadeDestino.ouroCidade / capacidadeCarroagem) * 2;
+                distanciaTotal += numeroViagens * caminho.distancia;
+                this.ouroCidade += caminho.cidadeDestino.ouroCidade;
+            }
+            return distanciaTotal;
+        }
     }
-    List<String> graphInfos;
-    int a, b, c;
 
-    for (int i = 0; i < taxQuantities.size() - 1; ++i) {
-      graphInfos = Arrays.asList(scanner.nextLine().split(" "));
-      a = Integer.parseInt(graphInfos.get(0)) - 1;
-      b = Integer.parseInt(graphInfos.get(1)) - 1;
-      c = Integer.parseInt(graphInfos.get(2));
+    static class Caminho {
+        Cidade cidadeDestino;
+        int distancia;
 
-      cities.get(a).addPath(cities.get(b), c);
-      cities.get(b).addPath(cities.get(a), c);
+        Caminho(Cidade cidadeDestino, int distancia) {
+            this.cidadeDestino = cidadeDestino;
+            this.distancia = distancia;
+        }
     }
-    System.out.println(cities.get(0).calculateTotalDistance(null));
-    scanner.close();
-  }
 }
