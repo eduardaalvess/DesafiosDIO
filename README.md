@@ -19,4 +19,4 @@ Bootcamp | Nome |Principais Tecnologias | Status
 [Bootcamp](https://web.digitalinnovation.one/track/javascript-game-developer?tab=path) | JavaScript Game Developer | JavaScript | Não iniciado
 [Bootcamp](https://web.digitalinnovation.one/track/santander-fullstack-developer?tab=path) | Santander Bootcamp - Fullstack Developer | Java, Angular | Concluído
 [Bootcamp](https://web.digitalinnovation.one/track/everis-site-reliability-engineer-essentials?tab=path) | everis Site Reliability Engineer Essentials | Java | Concluído
-[Bootcamp](https://web.digitalinnovation.one/track/decola-tech?tab=path) | Decola Tech | C#, .NET, Azure | Não iniciado.
+[Bootcamp](https://web.digitalinnovation.one/track/decola-tech?tab=path) | Decola Tech | C#, .NET, Azure | Não iniciado
