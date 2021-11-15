@@ -4,7 +4,7 @@
 
 ### Repositório com a resolução dos desafios de Bootcamps da Digital Innovation One.
 
-Tabela organizacional:
+Tabela de Bootcamps:
 
 Bootcamp | Nome |Principais Tecnologias | Status
 ------------- | ---------- | ----------------------- | ---------
