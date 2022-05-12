@@ -18,7 +18,3 @@ Bootcamp | Nome |Principais Tecnologias | Status
 [Bootcamp](https://web.digitalinnovation.one/track/santander-fullstack-developer?tab=path) | Santander Bootcamp - Fullstack Developer | Java, Angular | Concluído
 [Bootcamp](https://web.digitalinnovation.one/track/everis-site-reliability-engineer-essentials?tab=path) | everis Site Reliability Engineer Essentials | Java | Concluído
 [Bootcamp](https://web.dio.me/track/decola-tech-2a-edicao) | Decola Tech | C# | Concluído
-[Bootcamp](https://web.dio.me/track/cognizant-cloud-data-engineer-2) | Cognizant Cloud Data Engineer #2 | Python, SQL | Em andamento
-[Bootcamp](https://web.dio.me/track/sportheca-mobile-developer) | Sportheca Mobile Developer | Kotlin, Java | Em andamento
-[Bootcamp](https://web.dio.me/track/gft-start-4-net) | GFT Start #4 .NET | C# | Em andamento
-[Bootcamp](https://web.dio.me/track/gft-quality-assurance-1) | GFT Quality Assurance #1 | Java | Em andamento
