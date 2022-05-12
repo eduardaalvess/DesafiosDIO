@@ -10,20 +10,20 @@ Você receberá 5 valores inteiros.
 Exiba a mensagem conforme o exemplo de saída abaixo, sendo uma mensagem por
 linha e não esquecendo o final de linha após cada uma. */
 
-let n1= gets();
-let n2= gets();
-let n3= gets();
-let n4= gets();
-let n5= gets();
+let n1 = gets();
+let n2 = gets();
+let n3 = gets();
+let n4 = gets();
+let n5 = gets();
 
-let pares=0;
-let impares=0;
-let positivos=0;
-let negativos=0;
+let pares = 0;
+let impares = 0;
+let positivos = 0;
+let negativos = 0;
 
-let n = [n1,n2,n3,n4,n5];
+let n = [n1, n2, n3, n4, n5];
 
-for(let i=0; i<n.length;i++){
+for(let i = 0; i < n.length; i++){
   if (n[i] % 2 === 0){pares++;}
   if (n[i] % 2 !== 0){impares++}
   if (n[i] > 0 ){positivos++}
